@@ -5,7 +5,7 @@
 -- ************************************** "ADVENTUREWORKSDW.EDW".sqldbm_ChildDemo
 CREATE TABLE "ADVENTUREWORKSDW.EDW".sqldbm_ChildDemo
 (
- ScenarioKey number(38,0) NOT NULL COMMENT 'Scenario Identifier',
+ ScenarioKey number(38,0) NOT NULL COMMENT 'Scenario Identifier my text',
  CreatedBy   varchar(50) NOT NULL COMMENT 'Date when the scenario created',
  CreatedDate timestamp_ntz(9) NOT NULL COMMENT 'Who Created this Scenario',
  UpdatedDate timestamp_ntz(9) NOT NULL COMMENT 'Date when the scenario updated',
